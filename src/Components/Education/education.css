@@ -1,0 +1,60 @@
+section {
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.heading {
+    padding-top: 60px;
+    margin-left: 350px;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+    margin-top: 70px;
+}
+
+.container {
+    padding: 10px;
+    position: relative;
+    width: 50%;
+    background-color: #d2b48c;
+}
+
+.text-box {
+    padding: 20px 10px;
+    position: relative;
+    font-size: 15px;
+    background-color: #d2b48c;
+    border: 2px solid #002147;
+}
+
+.text-box h2 {
+    background-color: #d2b48c;
+    color: #002147;
+}
+
+.text-box p {
+    margin-top: 2px;
+    background-color: #d2b48c;
+    color: #002147;
+}
+
+.text-box small {
+    background-color: #d2b48c;
+    color: #002147;
+}
+
+.left-container {
+    margin-top: 15px;
+    left: 0;
+}
+
+.right-container {
+    margin-top: 15px;
+    left: 52%;
+}

@@ -12,7 +12,6 @@ section {
 
 
 .timeline {
-    position: relative;
     max-width: 1200px;
     margin: 100px auto;
     margin-top: 70px;
@@ -20,14 +19,12 @@ section {
 
 .container {
     padding: 10px;
-    position: relative;
     width: 50%;
     background-color: #d2b48c;
 }
 
 .text-box {
     padding: 20px 10px;
-    position: relative;
     font-size: 15px;
     background-color: #d2b48c;
     border: 2px solid #002147;
@@ -56,5 +53,5 @@ section {
 
 .right-container {
     margin-top: 15px;
-    left: 52%;
+    margin-left: 620px;
 }

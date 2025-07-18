@@ -16,7 +16,7 @@
         .then((result) => {
             console.log(result.text);
             alert('Message sent successfully!');
-            form.current.reset(); // Clear the form after success
+            form.current.reset(); 
         }, (error) => {
             console.log(error.text);
             alert('Failed to send message. Please try again.');

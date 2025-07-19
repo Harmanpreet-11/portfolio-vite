@@ -26,7 +26,7 @@ const Projects = () => {
                     <span>CryptoPulse</span>
                     <p>Built a cryptocurrency live monitoring app using React, Vite, and the Gecko API to display real-time data, including price, market cap, and 24h changes. Features include interactive charts, a search bar with dynamic filtering.</p>
                     <div className='btn'>
-                      <a href="https://CryptoPulse.vercel.app/" target='_blank'><button>Demo</button></a>  
+                      <a href="" target='_blank'><button>Demo</button></a>  
                         <a href="https://github.com/Harmanpreet-11/CryptoPulse" target='_blank'><button >Github</button></a>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const Projects = () => {
                     <img src="project-3.png" alt="" />
                     <span>Blogging App</span><p>Created a blogging platform to share ideas across diverse fields, fostering connection among like-minded individuals. Currently expanding it into a full-stack application with an admin panel and user features for editing and managing blogs.</p>
                     <div className='btn'>
-                        <a href="https://Blogger-App.vercel.app/" target='_blank'><button>Demo</button></a>
+                        <a href="" target='_blank'><button>Demo</button></a>
                           <a href="https://github.com/Harmanpreet-11/Blogger-App" target='_blank'><button >Github</button></a>
                     </div>
                 </div>

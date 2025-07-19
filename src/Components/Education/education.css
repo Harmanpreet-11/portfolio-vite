@@ -55,3 +55,45 @@ section {
     margin-top: 15px;
     margin-left: 620px;
 }
+
+
+@media (max-width:768px){
+      .education{ 
+        padding: 0;
+        margin: 0;
+        margin-top: 400px;
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+        max-height: 100vh;
+    }
+    .education .heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 35px;
+    }
+    .timeline .left-container{
+       padding-right: 10px;
+        margin-left: auto;
+        width: 350px;
+    }
+    .timeline .right-container{
+        padding-right: 10px;
+        margin-left: auto;
+        width: 350px;
+        
+    }
+    .timeline .left-container .text-box{
+        margin: 0;
+        padding: 10px;
+    }
+    .timeline .right-container .text-box{
+        padding: 0;
+        padding: 10px;
+    }
+}

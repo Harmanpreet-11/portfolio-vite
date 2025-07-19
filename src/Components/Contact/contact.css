@@ -56,3 +56,27 @@ textarea:valid~label{
     top: -35px;
     font-size: 14px;
 }
+
+
+@media (max-width:768px){
+    .contact{
+        margin-top: 400px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-title h1{ 
+        font-size: 55px;
+    }
+    form{
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: 30px;
+    }
+    .button-submit button{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: auto;
+    
+    }
+}

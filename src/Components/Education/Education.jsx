@@ -28,7 +28,7 @@ const Education = () => {
             <div className="text-box">
                 <h2>St. Xavier's School, Secondary</h2>
                 <small>2022 - Present</small>
-                <p>&bull; Relevant Coursework : </p>
+                <p>&bull; Relevant Coursework : Completed Class 10 ICSE with Science stream, including Physics, Chemistry, Biology, and Mathematics.</p>
             </div>
         </div>
     </div>

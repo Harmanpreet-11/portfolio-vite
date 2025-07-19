@@ -1,20 +1,23 @@
-.about{
+.about {
     max-width: 100vw;
     max-height: 100vh;
     padding-top: 60px;
 }
-.about h1{
+
+.about h1 {
     font-size: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.about-container{
+
+.about-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.left-about{
+
+.left-about {
     font-size: 17px;
     max-width: 40%;
     max-height: 120vh;
@@ -24,16 +27,19 @@
     font-weight: 500;
     line-height: 1.5em;
 }
-.left-about p{
+
+.left-about p {
     border: 2px solid #d2b48c;
     padding: 20px;
 }
-.left-about h3{
+
+.left-about h3 {
     font-weight: 800;
     font-size: 25px;
     margin-bottom: 15px;
 }
-.right-about{
+
+.right-about {
     font-size: 17px;
     max-width: 50vw;
     max-height: 80vh;
@@ -44,18 +50,66 @@
     font-weight: 500;
     line-height: 1.5em;
 }
-.right-about h3{
+
+.right-about h3 {
     font-weight: 800;
     font-size: 25px;
     margin-bottom: 15px;
 }
-.right-about p{
+
+.right-about p {
     border: 2px solid #d2b48c;
     padding: 20px;
     margin-bottom: 40px;
 }
 
-strong{
+strong {
     font-size: 20px;
     font-weight: 800;
+}
+
+@media (max-width:768px) {
+    .about {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+        max-height: 100vh;
+        gap: 100px;
+    }
+
+    .about h1 {
+        font-size: 50px;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 100px;
+    }
+
+    .left-about {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+     .left-about h3{
+        font-size: 30px;
+     }
+     .left-about p{
+        padding: 10px;
+     }
+    .right-about {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

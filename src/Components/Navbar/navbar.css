@@ -49,3 +49,17 @@ a {
   color: inherit;
 }
 
+@media ( max-width:768px){
+  .navbar{
+    position: sticky;
+    max-width: 100vw;
+  }
+  .navbar h2{
+    font-size: 15px;
+    margin-left: 0;
+  }
+  .category{
+    padding:0;
+    display: none;
+  }
+}

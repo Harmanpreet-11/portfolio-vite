@@ -8,8 +8,14 @@ const Home = () => {
     <div id='home' className='Home'>
       <div className="left">
         <div className='info'>
-          <h2>Hi, I am Harmanpreet Singh</h2>
-          <h1>A Full Stack Developer</h1>
+          <div className="heading">
+            <h2>Hi, I am Harmanpreet Singh</h2>
+          </div>
+          <div className="Title">
+            <h1>A Full Stack Developer</h1>
+          </div>
+
+
           <h4>I’m a student passionate about web development and technology. I enjoy building clean, responsive, and user-friendly applications. Always eager to learn and improve, I aim to grow my skills through real-world projects and collaboration.I thrive in collaborative environments and am committed to evolving both technically and professionally in the dynamic field of software development.</h4>
         </div>
 
